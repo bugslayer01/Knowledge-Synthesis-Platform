@@ -1,0 +1,3 @@
+FROM gpt-oss:20b
+PARAMETER num_ctx 50000      #Input tokens
+PARAMETER num_predict 8000   #Output tokens
